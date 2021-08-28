@@ -26,12 +26,4 @@ while cnum != guess:
         continue
     elif guess==random_number:
         print("Hurray !!! you guessed the number.")
-        print("Would you like to play again(y,n)")
-        inp=input()
-        if inp=='y' or'Y':
-            continue 
-        else:
-            prin("THANK YOU ")
-            break
-          
-          
+        
